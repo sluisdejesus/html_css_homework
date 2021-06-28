@@ -1,0 +1,23 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body > header {
+    color: white;
+    background-color:rgb(172, 9, 6);
+    padding: 10px;
+}
+footer {
+    color: white;
+    background-color:rgb(172, 9, 6);
+    padding: 10px;
+    text-align: right;
+}
+
+header > nav > ul > li {
+        display: inline;
+        float: right; 
+        text-decoration: none; 
+        padding: 5px; 
+        list-style-type: none;
+    }
